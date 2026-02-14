@@ -1,2 +1,3 @@
-# flutter
-Repositório com aprendizados em Flutter
+# Flutter
+
+Repositório com aprendizados em Flutter pessoais e da Fatec Araras Antônio Brambilla.
