@@ -1,17 +1,12 @@
-# todo_app
+# todo_app v1
 
-A new Flutter project.
+## Ciclo de Vida
+WidgetsFlutterBinding.ensureInitialized() serve para a comunicação do flutter com o SO anter da interface carregar.
 
-## Getting Started
+**await no Hive**: serve para esperar o carregamento completo e aí, realizar a leitura.
 
-This project is a starting point for a Flutter application.
+## Papel do provider
+Uma tarefa na tela A pode ser visualizada na Tela B sem passar lista por construtor.
 
-A few resources to get you started if this is your first Flutter project:
+O NotifyListeners() é quem permite essa funcionalidade.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
